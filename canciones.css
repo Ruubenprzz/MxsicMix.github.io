@@ -1,0 +1,301 @@
+body {
+  background-color: #1c1c1c;
+  margin: 0;
+}
+header {
+  background-color: #1c1c1c;
+  padding:20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  font-family: Arial, sans-serif;
+}
+
+header img:hover {
+  border-color: #555;
+  box-shadow: 0px 0px 20px #ccc;
+  transform: scale(1.1);
+}
+
+header img {
+  display: block;
+  margin: 0 auto;
+  border: 3px solid #ccc;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px #ccc;
+  transition: all 0.2s ease-in-out;
+}
+
+header img:hover {
+  border-color: #555;
+  box-shadow: 0px 0px 20px #ccc;
+  transform: scale(1.1);
+}
+}
+header header h1 {
+  font-size: 32px;
+  margin: 0;
+  padding: 100px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+
+}
+
+nav ul li {
+  margin: 0 10
+;}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: lightgrey;
+}
+
+nav {
+  margin-left:45%;
+}
+
+header img {
+  height: 70px;
+  margin-right: 20px;
+
+}
+
+.cancion1 h1 {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+
+.cancion1 p {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+
+.cancion1 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 1.5rem;
+    padding: 1.5rem;
+    background-image:url(https://i.ytimg.com/vi/gG2bqgt_6po/maxresdefault.jpg) ;
+    background-size: 100%;
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    margin-top: 30px;
+}
+
+
+.cancion1 h2 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.cancion1 p {
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+.cancion1 img {
+  width: 100%;
+  max-width: 300px; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto 10px; 
+  border-radius: 50%; 
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);}
+
+
+  --
+  .cancion2 h1 {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+
+.cancion2 p {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+
+.cancion2 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 1.5rem;
+    padding: 1.5rem;
+    background-image:url(https://i.ytimg.com/vi/60fXu7Cp0CI/maxresdefault.jpg) ;
+    background-size: 100%;
+    background-repeat: no repeat;
+    background-attachment: fixed;
+}
+
+
+.cancion2 h2 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.cancion2 p {
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+.cancion2 img {
+  width: 100%;
+  max-width: 300px; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto 10px; 
+  border-radius: 50%; 
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);}
+  --
+ .cancion3 h1 {
+    text-align: center;
+    color: black;
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+
+.cancion3 p {
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+
+.cancion3 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 1.5rem;
+    padding: 1.5rem;
+    background-image:url(https://images.complex.com/complex/images/c_fill,f_auto,g_center,h_300,q_auto,w_600/fl_lossy,pg_1/dkcwztahtjsfv6kmgq8m/timelezz-cover) ;
+    background-size: 100%;
+    background-repeat: no repeat;
+    background-attachment: fixed;
+}
+
+
+.cancion3 h2 {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 0.5rem;
+}
+
+.cancion3 p {
+    font-size: 1.2rem;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+.cancion3 img {
+  width: 100%;
+  max-width: 300px; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto 10px; 
+  border-radius: 50%; 
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);}
+  --
+   .cancion4 h1 {
+    text-align: center;
+    color: #333;
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+
+.cancion4 p {
+    text-align: center;
+    color: #666;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+
+.cancion4 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 1.5rem;
+    padding: 1.5rem;
+    background-image:url(https://fleek.25gramos.com/wp-content/uploads/2020/01/myke-towers-easy-money-babe-album-1.jpg) ;
+    background-size: 100%;
+    background-repeat: no repeat;
+    background-attachment: fixed;
+}
+
+
+.cancion4 h2 {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 0.5rem;
+}
+
+.cancion4 p {
+    font-size: 1.2rem;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+.cancion4 img {
+  width: 100%;
+  max-width: 300px; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto 10px; 
+  border-radius: 50%; 
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);}
+
+
+
+
+iframe {
+    display: block;
+    margin: auto;
+}
+footer {
+  background-color: #1c1c1c;
+  padding: 5px;
+  color: #fff;
+  text-align: center;
+}
+  
+  
+  
